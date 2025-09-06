@@ -1,0 +1,28 @@
+{
+    "checksum": "8ecda19089c1371377ce57a8b687b3a8",
+    "wallpaper": "/home/darkzin/Imagens/Wallpapers/wallhaven-zp8m8o.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#04040a",
+        "foreground": "#c0c0c1",
+        "cursor": "#c0c0c1"
+    },
+    "colors": {
+        "color0": "#04040a",
+        "color1": "#5a4d71",
+        "color2": "#4d14ac",
+        "color3": "#443393",
+        "color4": "#625175",
+        "color5": "#66557b",
+        "color6": "#6f2ab4",
+        "color7": "#898994",
+        "color8": "#535366",
+        "color9": "#796797",
+        "color10": "#671BE6",
+        "color11": "#5B44C4",
+        "color12": "#836C9D",
+        "color13": "#8972A5",
+        "color14": "#9438F0",
+        "color15": "#c0c0c1"
+    }
+}

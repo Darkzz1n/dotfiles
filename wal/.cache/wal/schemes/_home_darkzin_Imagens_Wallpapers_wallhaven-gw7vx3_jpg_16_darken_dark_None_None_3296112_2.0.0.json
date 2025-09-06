@@ -1,0 +1,28 @@
+{
+    "checksum": "35be1ebd0ae3cd7bf06552953bcfc1ed",
+    "wallpaper": "/home/darkzin/Imagens/Wallpapers/wallhaven-gw7vx3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e1321",
+        "foreground": "#c2c4c7",
+        "cursor": "#c2c4c7"
+    },
+    "colors": {
+        "color0": "#0e1321",
+        "color1": "#692d33",
+        "color2": "#6c3338",
+        "color3": "#84373b",
+        "color4": "#9c3c40",
+        "color5": "#ab4542",
+        "color6": "#ae523d",
+        "color7": "#91939b",
+        "color8": "#5d6272",
+        "color9": "#8C3D45",
+        "color10": "#91444B",
+        "color11": "#B04A4F",
+        "color12": "#D05156",
+        "color13": "#E45C58",
+        "color14": "#E86E52",
+        "color15": "#c2c4c7"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "checksum": "7950de3374ade8870f4421bad6f26883",
+    "wallpaper": "/home/darkzin/Imagens/Wallpapers/wallhaven-je3wem.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#21120e",
+        "foreground": "#c7c3c2",
+        "cursor": "#c7c3c2"
+    },
+    "colors": {
+        "color0": "#21120e",
+        "color1": "#183245",
+        "color2": "#223244",
+        "color3": "#483946",
+        "color4": "#722521",
+        "color5": "#754445",
+        "color6": "#9b4336",
+        "color7": "#9b9391",
+        "color8": "#72615d",
+        "color9": "#20435C",
+        "color10": "#2E435B",
+        "color11": "#604C5E",
+        "color12": "#98322C",
+        "color13": "#9C5B5C",
+        "color14": "#CF5A48",
+        "color15": "#c7c3c2"
+    }
+}

@@ -1,0 +1,122 @@
+{
+        "layer": "top",
+        "position": "top",
+        "reload_style_on_change": true,
+        "modules-left": ["custom/notification","clock"],
+        "modules-center": ["hyprland/workspaces"],
+        "modules-right": ["group/expand","pulseaudio","bluetooth","network","battery"],
+
+
+        "hyprland/workspaces": {
+            "format": "{icon}",
+            "format-icons": {
+                "active": "",
+                "default": "",
+                "empty": ""
+            },
+            "persistent-workspaces": {
+                "*": [ 1,2,3,4,5 ]
+            }
+        },
+        "custom/notification": {
+            "tooltip": false,
+            "format": "",
+            "on-click": "swaync-client -t -sw",
+            "escape": true
+        },
+        "clock": {
+            "format": "{:%I:%M:%S %p} ",
+            "interval": 1,   
+            "tooltip-format": "<tt>{calendar}</tt>",
+            "calendar": {
+                "format": {
+                    "today": "<span color='#fAfBfC'><b>{}</b></span>"
+                }
+            },
+            "actions": {
+                "on-click-right": "shift_down",
+                "on-click": "shift_up"
+            }
+        },
+        "network": {
+            "format-wifi": "",
+            "format-ethernet":"",
+            "format-disconnected": "",
+            "tooltip-format-disconnected": "Error",
+            "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+            "tooltip-format-ethernet": "{ifname} 🖧 ",
+            "on-click": "kitty nmtui"
+        },
+        "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": " Muted",
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+        "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+        "format-icons": {
+            "headphone": "",
+            "default": ["", "", ""]
+            },
+        },
+        "bluetooth": {
+            "format": "{icon}",
+            "format-on": "",
+            "format-off": "󰂲",
+            "format-disabled": "󰂲", // Mostra o ícone de desligado quando não há adaptador
+            "format-connected": " {device_alias}",
+            "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+            "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+            "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+            "on-click": "~/.config/waybar/scripts/bluetooth_toggle.sh",
+            "on-click-right": "blueman-manager"
+        },
+        "battery": {
+            "interval":30,
+            "states": {
+                "good": 95,
+                "warning": 30,
+                "critical": 20
+            },
+            "format": "{capacity}% {icon}",
+            "format-charging": "{capacity}% 󰂄",
+            "format-plugged": "{capacity}% 󰂄 ",
+            "format-alt": "{time} {icon}",
+            "format-icons": [
+                "󰁻",
+            "󰁼",
+            "󰁾",
+            "󰂀",
+            "󰂂",
+            "󰁹"
+            ],
+        },
+        "custom/expand": {
+            "format": "",
+            "tooltip": false
+        },
+        "custom/endpoint":{
+            "format": "|",
+            "tooltip": false
+        },
+        "group/expand": {
+            "orientation": "horizontal",
+            "drawer": {
+                "transition-duration": 600,
+                "transition-to-left": true,
+                "click-to-reveal": true
+            },
+            "modules": ["custom/expand", "custom/colorpicker","cpu","memory","temperature","custom/endpoint"],
+        },
+        "cpu": {
+            "format": "󰻠",
+            "tooltip": true
+        },
+        "memory": {
+            "format": ""
+        },
+        "temperature": {
+            "critical-threshold": 80,
+            "format": "",
+        },
+} 
+

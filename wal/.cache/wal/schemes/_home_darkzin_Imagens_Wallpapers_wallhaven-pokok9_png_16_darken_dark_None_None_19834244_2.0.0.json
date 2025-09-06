@@ -1,0 +1,28 @@
+{
+    "checksum": "d2d1fd73a3d2b7b77a07bd1ef5a0da24",
+    "wallpaper": "/home/darkzin/Imagens/Wallpapers/wallhaven-pokok9.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c131c",
+        "foreground": "#c2c4c6",
+        "cursor": "#c2c4c6"
+    },
+    "colors": {
+        "color0": "#0c131c",
+        "color1": "#213484",
+        "color2": "#43576b",
+        "color3": "#685a69",
+        "color4": "#4b697f",
+        "color5": "#336c93",
+        "color6": "#72787d",
+        "color7": "#8f9399",
+        "color8": "#5b6370",
+        "color9": "#2D46B1",
+        "color10": "#5A758F",
+        "color11": "#8B788C",
+        "color12": "#648DAA",
+        "color13": "#4491C4",
+        "color14": "#99A0A7",
+        "color15": "#c2c4c6"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "checksum": "8642de947bc68732d197f95715e6820f",
+    "wallpaper": "/home/darkzin/Imagens/Wallpapers/wallhaven-xelyx3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#121b2a",
+        "foreground": "#c3c6c9",
+        "cursor": "#c3c6c9"
+    },
+    "colors": {
+        "color0": "#121b2a",
+        "color1": "#615b63",
+        "color2": "#526987",
+        "color3": "#577097",
+        "color4": "#5d7c9c",
+        "color5": "#758591",
+        "color6": "#6983a1",
+        "color7": "#94989e",
+        "color8": "#616976",
+        "color9": "#827A84",
+        "color10": "#6E8DB4",
+        "color11": "#7596CA",
+        "color12": "#7CA6D0",
+        "color13": "#9DB2C2",
+        "color14": "#8CAFD7",
+        "color15": "#c3c6c9"
+    }
+}

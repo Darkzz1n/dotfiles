@@ -1,0 +1,28 @@
+{
+    "checksum": "517e564c3dfab72e7f1dbee6993e0731",
+    "wallpaper": "/home/darkzin/Imagens/Wallpapers/wallhaven-nel16k.png",
+    "alpha": "100",
+    "special": {
+        "background": "#19150a",
+        "foreground": "#c5c4c1",
+        "cursor": "#c5c4c1"
+    },
+    "colors": {
+        "color0": "#19150a",
+        "color1": "#544775",
+        "color2": "#377b7f",
+        "color3": "#5a9aa5",
+        "color4": "#5d9faa",
+        "color5": "#82847f",
+        "color6": "#b49f7e",
+        "color7": "#98958e",
+        "color8": "#6e6859",
+        "color9": "#705F9D",
+        "color10": "#4AA5AA",
+        "color11": "#79CEDC",
+        "color12": "#7DD5E3",
+        "color13": "#AEB1AA",
+        "color14": "#F0D4A9",
+        "color15": "#c5c4c1"
+    }
+}
