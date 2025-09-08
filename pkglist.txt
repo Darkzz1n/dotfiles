@@ -15,6 +15,7 @@ dolphin
 dotnet-sdk
 dunst
 efibootmgr
+fastfetch
 fd
 firefox
 flatpak
@@ -44,6 +45,7 @@ libva-intel-driver
 light
 linux
 linux-firmware
+matugen-bin
 nano
 nemo
 neovim
@@ -62,8 +64,6 @@ proton-vpn-gtk-app
 pulseaudio-alsa
 python-pip
 python-pytest
-python-pywal16
-python-pywalfox
 python-virtualenv
 qt5-wayland
 qt6-virtualkeyboard
