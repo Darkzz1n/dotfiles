@@ -1,9 +1,9 @@
 @import url('/home/darkzin/.cache/wal/colors-waybar.css');
 
-@define-color mauve  @color9;
-@define-color red  @color9;
-@define-color lavender  @color7;
-@define-color text  @color7;
+@define-color mauve  @base09;
+@define-color red  @base09;
+@define-color lavender  @base07;
+@define-color text  @base07;
 @keyframes fadeIn {
     0% {
     }
@@ -25,7 +25,7 @@ window {
     all:unset;
     padding: 20px;
     border-radius: 0px;
-    background-color: alpha(@background,.5);
+    background-color: alpha(@base00,.5);
 }
 #inner-box {
     margin: 2px;
@@ -51,7 +51,7 @@ window {
     color: @text;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
     border-radius:10;
-    background-color: alpha(@background,.2);
+    background-color: alpha(@base00,.2);
 }
 #input image {
     border: none;
@@ -86,7 +86,7 @@ window {
     padding: 30;
     border: none;
     border-radius: 20px;
-    background-color: alpha(@background,.2);
+    background-color: alpha(@base00,.2);
 }
 #entry:selected #text {
     color: @mauve;

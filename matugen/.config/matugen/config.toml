@@ -1,0 +1,42 @@
+[config.wallpaper]
+command = "swww"
+arguments = ["img", "--transition-type", "center"]
+set = true
+
+# === Waybar ===
+[templates.waybar]
+input_path = './templates/colors-waybar.css'
+output_path = '~/.config/waybar/colors.css'
+post_hook = 'pkill -SIGUSR2 waybar'
+
+# === Wofi ===
+[templates.wofi]
+input_path = "./templates/colors-wofi.css"
+output_path = "~/.config/wofi/colors.css"
+
+# === Hyprland ===
+[templates.hyprland]
+input_path = './templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/hyprland-colors.conf'
+post_hook = 'hyprctl reload'
+
+# === Kitty ===
+[templates.kitty]
+input_path = "./templates/kitty-colors.conf"
+output_path = "~/.config/kitty/colors.conf"
+post_hook = "pkill -SIGUSR1 kitty"
+
+# === SwayNC ===
+[templates.swaync]
+input_path = './templates/colors-swaync.css'
+output_path = '~/.config/swaync/colors.css'
+
+# == Hyprlock ==
+[templates.hyprlock]
+input_path = './templates/colors-hyprlock.conf'
+output_path = '~/.config/hypr/colors-hyprlock.conf'
+
+# == wlogout ==
+[templates.wlogout]
+input_path = './templates/colors-wlogout.css'
+output_path = '~/.config/wlogout/colors.css'
