@@ -1,8 +1,11 @@
 @import url('/home/darkzin/.cache/wal/colors-waybar.css');
-@define-color mauve  @base09;
-@define-color red  @base09;
-@define-color lavender  @base07;
-@define-color text  @base07;
+
+@define-color mauve @tertiary;
+@define-color red @error;
+@define-color lavender @tertiary_container;
+@define-color text @on_background;
+@define-color background @background;
+
 * {
     all:unset;
     font-family: 'CodeNewRoman Nerd Font Mono', monospace;
@@ -17,74 +20,84 @@ window {
     all:unset;
     padding: 20px;
     border-radius: 0px;
-    background-color: alpha(@base00,.5);
+    background-color: alpha(@background, 0.5); /* fundo semi-transparente */
 }
-#inner-box {
-    margin: 2px;
-    padding: 5px;
-    border: none;
 
+#inner-box {
+margin: 2px;
+padding: 5px;
+border: none;
 }
-#outer-box {    
-    border: none;
+
+#outer-box {
+border: none;
 }
+
 #scroll {
-    margin: 0px;
-    padding: 30px;
-    border: none;
+margin: 0px;
+padding: 30px;
+border: none;
 }
+
 #input {
-    all:unset;
-    margin-left:20px;
-    margin-right:20px;
-    margin-top:20px;
-    padding: 20px;
-    border: none;
-    outline: none;
-    color: @text;
-    box-shadow: 1px 1px 5px rgba(0,0,0, .5);
-    border-radius:10;
-    background-color: alpha(@base00,.2);
+all:unset;
+margin-left:20px;
+margin-right:20px;
+margin-top:20px;
+padding: 20px;
+border: none;
+outline: none;
+color: @text;
+box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+border-radius:10px;
+background-color: alpha(@background, 0.2); /* leve transparência */
 }
+
 #input image {
-    border: none;
-    color: @red;
-    padding-right:10px;
+border: none;
+color: @red;
+padding-right:10px;
 }
+
 #input * {
-    border: none;
-    outline: none;
+border: none;
+outline: none;
 }
 
 #input:focus {
-    outline: none;
-    border: none;
-
-    border-radius:10;
+outline: none;
+border: none;
+border-radius:10px;
+background-color: alpha(@background, 0.25); /* ligeira mudança ao focar */
 }
+
 #text {
-    margin: 5px;
-    border: none;
-    color: @text;
-    outline: none;
+margin: 5px;
+border: none;
+color: @text;
+outline: none;
 }
-#entry {
-    all:unset;
-    padding: 20 0 20 45;
-}
-#entry arrow {
-    border: none;
-    color: @lavender;
 
+#entry {
+all:unset;
+padding: 20px 0 20px 45px;
 }
+
+#entry arrow {
+border: none;
+color: @lavender;
+}
+
 #entry:selected {
-    border: none;
-    border-radius: 20px;
-    background-color: alpha(@base00,.2);
+border: none;
+border-radius: 20px;
+background-color: alpha(@background, 0.2); /* leve transparência na seleção */
 }
+
 #entry:selected #text {
-    color: @mauve;
+color: @mauve;
 }
+
 #entry:drop(active) {
-    background-color: @lavender !important;
+background-color: alpha(@lavender, 0.5) !important; /* seleção de drop com alpha */
 }

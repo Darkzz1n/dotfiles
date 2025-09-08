@@ -17,15 +17,16 @@
     font-family: 'JetBrainsMono Nerd Font', monospace;
     font-size: 18px;
     outline: none;
+    border: none;
     text-shadow:none;
     background-color:transparent;
 }
 
 window {
-    all:unset;
-    padding: 20px;
-    border-radius: 18px;
-    background-color: alpha(@background,.95);
+  all:unset;
+  padding: 20px;
+  border-radius: 0px;
+  background-color: alpha(@background,.5);
 }
 #inner-box {
 margin: 2px;
@@ -98,7 +99,7 @@ border-radius: 20px;
 background-color:transparent;
 }
 #entry:selected #text {
-color: @mauve;
+color: @primary;
 }
 #entry:drop(active) {
 background-color: @lavender !important;

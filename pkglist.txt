@@ -23,6 +23,7 @@ foot
 fzf
 git
 github-desktop-bin
+gnome-themes-extra
 go
 grim
 grub
@@ -56,6 +57,7 @@ ocs-url
 orchis-theme
 otf-aurulent-nerd
 pamixer
+papirus-icon-theme
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
@@ -93,7 +95,7 @@ wireless_tools
 wireplumber
 wl-clipboard
 wlogout
-wofi
+wofi-hg
 xdg-desktop-portal-hyprland
 xdg-utils
 xf86-video-amdgpu
