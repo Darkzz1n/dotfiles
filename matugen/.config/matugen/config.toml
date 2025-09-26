@@ -40,3 +40,15 @@ output_path = '~/.config/hypr/colors-hyprlock.conf'
 [templates.wlogout]
 input_path = './templates/colors-wlogout.css'
 output_path = '~/.config/wlogout/colors.css'
+
+# == discord ==
+[templates.vesktop]
+input_path = '~/.config/matugen/templates/colors-midnight-discord.css'
+output_path = '~/.config/Vencord/themes/matugen-midnight-discord.css'
+
+[templates.hyprpanel]
+input_path = "~/.config/matugen/templates/colors-hyprpanel.scss.tmpl"
+output_path = "~/.config/hyprpanel/_matugen.scss"
+
+
+

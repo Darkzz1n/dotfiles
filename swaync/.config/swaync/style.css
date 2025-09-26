@@ -14,7 +14,7 @@
 .notification {
     background: alpha(@primary, 0.70);  /* more solid, easier to read */
     backdrop-filter: blur(15px);        /* softer blur, not overwhelming */
-    border: 1px solid alpha(@primary, 0.55);
+    border: 1px solid @primary;
     border-radius: 18px;
     color: @on_surface;
     padding: 12px;
@@ -44,7 +44,7 @@
 .control-center {
     background: alpha(@surface, 0.85); /* more solid */
     backdrop-filter: blur(12px);       /* softer blur */
-    border: 2px solid alpha(@primary, 0.75);
+    border: 1px solid @primary;
     border-radius: 20px;
     padding: 14px;
     margin: 10px;
